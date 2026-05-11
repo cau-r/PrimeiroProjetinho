@@ -15,8 +15,9 @@ public class Calculadora {
         Multiplicacao multiplicacao = new Multiplicacao();
         Menu menu = new Menu();
         EntradaUtil sc = new EntradaUtil();
-        
+
         int operacao = 0;
+
         do {
             menu.exibirMenu();
             operacao = sc.nextInt();
@@ -33,16 +34,13 @@ public class Calculadora {
                 case 4:
                     multiplicacao.calculo();
                     break;
-                case 5:
-
+                case 5: 
+                    System.out.println("Saindo...");
                     break;
-
-                case 6: 
-
-            
                 default:
                     break;
             }
-        } while (false);
+        } while (operacao != 6);
+        
     }
 }
