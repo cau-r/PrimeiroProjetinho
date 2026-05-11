@@ -15,6 +15,7 @@ public class Calculadora {
         Multiplicacao multiplicacao = new Multiplicacao();
         Menu menu = new Menu();
         EntradaUtil sc = new EntradaUtil();
+        
         int operacao = 0;
         do {
             menu.exibirMenu();
@@ -33,6 +34,7 @@ public class Calculadora {
                     multiplicacao.calculo();
                     break;
                 case 5:
+
                     break;
 
                 case 6: 
