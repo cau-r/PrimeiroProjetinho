@@ -22,7 +22,7 @@ public class App {
             if (operacao == 5) {
                 System.out.print("Informe o valor de n1:");
                 n1 = in.nextInt();
-                System.out.print("Informe o valor de n2:");
+                System.out.print("Informe o valor de ");
                 n2 = in.nextInt();
 
             }
